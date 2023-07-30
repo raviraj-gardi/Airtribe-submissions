@@ -1,0 +1,25 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "RESTful API for a simple task manager application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "keywords": [
+    "airtribe",
+    "nodejs",
+    "backend",
+    "task-manager-api",
+    "hw"
+  ],
+  "author": "vaasu2002",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "nodemon": "^3.0.1",
+    "winston": "^3.10.0"
+  }
+}
